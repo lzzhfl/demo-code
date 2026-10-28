@@ -18,3 +18,4 @@ new_storage_context = StorageContext.from_defaults(persist_dir="./vector_store_i
 new_index = load_index_from_storage(new_storage_context, embed_model=embed_model)
 print(new_index.as_retriever().retrieve('古河是谁?'))
 # 结束
+# 开始

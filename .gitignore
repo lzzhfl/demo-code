@@ -1,0 +1,17 @@
+# 虚拟环境
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# 环境变量（含密钥）
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地持久化数据
+storage/
+vector_store_index/
